@@ -131,10 +131,11 @@ const IndexPage = () => {
         <br />
         <span style={headingAccentStyles}>— you just made a Gatsby site! 🎉🎉🎉</span>
       </h1>
-      <p style={paragraphStyles}>
+      <p class="text-3xl font-bold underline" style={paragraphStyles}>
         Edit <code style={codeStyles}>src/pages/index.js</code> to see this page
         update in real-time. 😎
       </p>
+      <button class="btn btn-accent">Button</button>
       <ul style={listStyles}>
         <li style={docLinkStyle}>
           <a
